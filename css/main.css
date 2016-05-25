@@ -1,3 +1,7 @@
+* {
+	outline: red 1px solid;
+}
+
 body {
 	background-color: black;
 }
@@ -42,3 +46,25 @@ body {
 .ryu-throwing {
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 170px;
+	left: 565px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
