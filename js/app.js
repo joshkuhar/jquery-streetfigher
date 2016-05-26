@@ -28,13 +28,16 @@ $(document).ready(function() {
 
   $(document).keydown(function(e) { 
         if (e.which == 88) {
-            //playCool();
             $('.ryu-still').hide();
-            $('.ryu-ready').hide();
-            $('.ryu-throwing').hide();
             $('.ryu-cool').show();
         }
-    });
+    })
+  $(document).keyup(function(e) {
+  		if (e.which == 88) {
+  			$('.ryu-still').show();
+            $('.ryu-cool').hide();
+  		}
+  });
 });
 
 

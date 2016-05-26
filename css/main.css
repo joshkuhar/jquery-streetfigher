@@ -1,5 +1,5 @@
 * {
-	outline: red 1px solid;
+	/*outline: red 1px solid;*/
 }
 
 body {
@@ -63,7 +63,16 @@ body {
 	float: left;
 }
 
-
+.instructions {
+    color: black;
+    font-size: 1em;
+    line-height: 25px;
+    display: inline;
+    position: absolute;
+    left: 650px;
+    height: 425px;
+    padding-top: 75px;
+}
 
 
 
